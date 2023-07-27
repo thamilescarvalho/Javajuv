@@ -1,4 +1,4 @@
-package teste;
+package prof;
 
 import estudo.*;
 import java.math.*;

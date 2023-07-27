@@ -1,4 +1,4 @@
-package estudo;
+package prof;
 
 public class aluno {
 
