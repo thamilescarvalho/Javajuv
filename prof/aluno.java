@@ -10,6 +10,8 @@ public class aluno {
 
     protected double nota1;
 
+    protected double nota2;
+
     protected double media;
 
     public double calcularMedia(double n1, double n2){
