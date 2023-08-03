@@ -1,4 +1,4 @@
-package aluguel;
+package Aluguel;
 
 public class Apartamento extends Imovel{
 

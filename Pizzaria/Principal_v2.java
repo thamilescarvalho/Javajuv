@@ -1,6 +1,15 @@
-package aluguel;
+package Pizzaria;
 
-public class Principal_v1 {
+import java.time.LocalDate;
+
+import Aluguel.Aluguel;
+import Aluguel.Apartamento;
+import Aluguel.Casa;
+import Aluguel.Imovel;
+import Aluguel.Loja;
+import Aluguel.TipoLoja;
+
+public class Principal_v2 {
     
     public static void main(String[] args) {
         
@@ -22,9 +31,19 @@ public class Principal_v1 {
         l1.setValorAluguel(753.65);
 
         Loja loja = (Loja)l1;
-        loja.setTipoLoja("Sala");
+        loja.setTipoLoja(TipoLoja.SALA);
 
         mostrarInformacao(l1);
+
+        Aluguel aluguel = new Aluguel();
+        aluguel.setImovel(c1);
+
+        LocalDate dtAtual = LocalDate.now();
+
+        aluguel.setDtAluguel(dtAtual);
+        aluguel.setDtValidadeAluguel(dtAtual.plusYears(1));
+
+        System.out.println(aluguel.toString());
 
     }
 

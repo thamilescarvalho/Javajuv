@@ -1,3 +1,4 @@
+package Pizzaria;
 public class ExercicioPizzaria {
     
     public static void main(String[] args) {

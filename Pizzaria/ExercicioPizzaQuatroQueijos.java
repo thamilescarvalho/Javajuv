@@ -1,3 +1,4 @@
+package Pizzaria;
 public class ExercicioPizzaQuatroQueijos extends ExercicioPizza{
     
     public void prepare() {

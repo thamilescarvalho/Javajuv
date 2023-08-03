@@ -1,8 +1,6 @@
-package aluguel;
+package Aluguel;
 
-import java.time.LocalDate;
-
-public class Principal_v2 {
+public class Principal_v1 {
     
     public static void main(String[] args) {
         
@@ -24,19 +22,9 @@ public class Principal_v2 {
         l1.setValorAluguel(753.65);
 
         Loja loja = (Loja)l1;
-        loja.setTipoLoja(TipoLoja.SALA);
+        loja.setTipoLoja("Sala");
 
         mostrarInformacao(l1);
-
-        Aluguel aluguel = new Aluguel();
-        aluguel.setImovel(c1);
-
-        LocalDate dtAtual = LocalDate.now();
-
-        aluguel.setDtAluguel(dtAtual);
-        aluguel.setDtValidadeAluguel(dtAtual.plusYears(1));
-
-        System.out.println(aluguel.toString());
 
     }
 

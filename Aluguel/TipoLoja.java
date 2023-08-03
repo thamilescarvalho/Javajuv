@@ -1,4 +1,4 @@
-package aluguel;
+package Aluguel;
 
 public enum TipoLoja {
     

@@ -1,4 +1,4 @@
-package aluguel;
+package Aluguel;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
